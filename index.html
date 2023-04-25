@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="header">
+      <!-- <img class="backGround" src="/portfolio.jpg" /> -->
+
+      <div class="container head">
+        <nav>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-x" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Software Engineer</p>
+          <h1>
+            Hi, I am <span> Luca Caimi</span> <br />a front end developer
+            <br />appasionate about Desing!<br />
+          </h1>
+        </div>
+      </div>
+
+      <!-- about -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-fst-c">
+              <img src="./LucaCaimi.jpg" />
+              <a href="/Luca Caimi CV copy.pages" class="btn btn2">
+                Download CV</a
+              >
+            </div>
+
+            <div class="about-snd-c">
+              <h1 class="subtitle about">About me</h1>
+              <p>
+                I am a Studend at the Jump Digital school and I am looking to
+                start my first eperience!<br />I am appasionate about coding and
+                entratainment<br />
+                I like to work in profesional team where to grow and learn!<br />
+              </p>
+              <div class="tabTitles">
+                <p class="tabLinks active" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tabLinks" onclick="opentab('experience')">
+                  Languages
+                </p>
+                <p class="tabLinks" onclick="opentab('education')">Education</p>
+              </div>
+
+              <div class="tabContent activeTab" id="skills">
+                <div class="social about">
+                  <a><i class="fa-brands fa-js"></i></a>
+                  <a><i class="fa-brands fa-html5"></i></a>
+                  <a><i class="fa-brands fa-css3"></i></a>
+                  <a><i class="fa-brands fa-react"></i></a>
+                  <a><i class="fa-brands fa-node-js"></i></a>
+                  <a> <i class="fa-brands fa-github"></i></a>
+                  <a><i class="fa-brands fa-npm"></i></a>
+                  <a><i class="fa-brands fa-slack"></i></a>
+                </div>
+              </div>
+              <div class="tabContent" id="experience">
+                <ul>
+                  <li><span>Java Script</span></li>
+                  <div class="percent">
+                    <div style="width: 60%"></div>
+                  </div>
+                  <li><span>React</span></li>
+                  <div class="percent">
+                    <div style="width: 60%"></div>
+                  </div>
+                  <li><span>HTML 5</span></li>
+                  <div class="percent">
+                    <div style="width: 80%"></div>
+                  </div>
+                  <li><span>CSS</span></li>
+                  <div class="percent">
+                    <div style="width: 80%"></div>
+                  </div>
+                  <li><span>English</span></li>
+                  <div class="percent">
+                    <div style="width: 80%"></div>
+                  </div>
+                  <li><span>Italian</span></li>
+                  <div class="percent">
+                    <div style="width: 95%"></div>
+                  </div>
+                  <li><span>Spanish</span></li>
+                  <div class="percent">
+                    <div style="width: 50%"></div>
+                  </div>
+                </ul>
+              </div>
+              <div class="tabContent edu" id="education">
+                <ul>
+                  <li>
+                    <span>The Jump</span>
+                    <p>
+                      Developing and deploying full-stack web application and
+                      website!
+                    </p>
+                  </li>
+                  <li>
+                    <span>Planet One</span>
+                    <p>
+                      Bartending tecniques, cocktails history, first step in to
+                      mixologist!
+                    </p>
+                  </li>
+                  <li>
+                    <span>IPSSAR G.Pastore</span>
+                    <p>Diploma in sales and hospitality service!</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- portfolio -->
+      <div id="portfolio">
+        <div class="container">
+          <h1 class="subtitle">My Projects</h1>
+          <div class="workList">
+            <div class="work">
+              <img src="./img/Screenshot 2023-04-20 at 19.07.41 (2).png" />
+              <div class="layer">
+                <h3>Social Media</h3>
+                <p>description</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="./img/Screenshot 2023-04-20 at 19.07.41 (2).png" />
+              <div class="layer">
+                <h3>Social Media</h3>
+                <p>description</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/img/Screenshot 2023-04-20 at 19.07.41 (2).png" />
+              <div class="layer">
+                <h3>Social Media</h3>
+                <p>description</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="/img/Screenshot 2023-04-20 at 19.07.41 (2).png" />
+              <div class="layer">
+                <h3>Social Media</h3>
+                <p>description</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- contact correct css -->
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contactLeft">
+              <h1 class="subtitle">Contact Me</h1>
+              <p><i class="fa-regular fa-envelope"></i>lucacaimi@yahoo.com</p>
+              <p><i class="fa-solid fa-phone"></i>074558324456</p>
+              <div class="social">
+                <a
+                  href="https://www.linkedin.com/in/luca-caimi-91b015180?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiAk7Ad3CQ%2FisFmGM5giBNw%3D%3D"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="https://github.com/lucacaimideveloper"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="contactSND">
+              <form name="submit-to-google-sheet">
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required />
+                <input
+                  type="text"
+                  name="Email"
+                  placeholder="Your Email"
+                  required />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright made by @ Luca</p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tabLinks = document.getElementsByClassName("tabLinks");
+      var tabContent = document.getElementsByClassName("tabContent");
+
+      function opentab(tabname) {
+        for (tabLink of tabLinks) {
+          tabLink.classList.remove("active");
+        }
+        for (tabContents of tabContent) {
+          tabContents.classList.remove("activeTab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("activeTab");
+      }
+    </script>
+    <script>
+      var sideMenu = document.getElementById("sideMenu");
+
+      function openMenu() {
+        sideMenu.style.right = "0";
+      }
+      function closeMenu() {
+        sideMenu.style.right = "-200px";
+      }
+      //
+      //
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwHL7PbGYktIbfgo87cJ3wJVocCvWPGS9Xwz0y7yNhN4cS3FzPvxvkeK0zut7sD10p1jQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully!";
+            setTimeout(function () {
+              masg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
